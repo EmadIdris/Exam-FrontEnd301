@@ -12,7 +12,7 @@ class CardForAllData extends React.Component {
                     <Card.Img variant="top" src={this.props.data.image} />
                     <Card.Body>
                         <Card.Title>{this.props.data.title}</Card.Title>
-                        <Button variant="primary" onClick={this.addButton}>Add</Button>
+                        <Button variant="primary" onClick={this.addButton}>Add-to-favorite</Button>
                     </Card.Body>
                 </Card>
             </>
